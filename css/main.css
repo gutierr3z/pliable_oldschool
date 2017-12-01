@@ -1,0 +1,16 @@
+
+header > section,
+main > section,
+footer > section,
+header > section > section,
+main > section > section, 
+footer > section > section,
+header > section > section > div > a,
+.br-gallery,
+.br-gallery > * ,
+.br-gallery > * > * ,
+.br-gallery > * > * > * {
+    /* appearance */
+    /* background-color: transparent; */
+    /* border: 1px solid red; */
+}
