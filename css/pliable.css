@@ -97,18 +97,20 @@ footer___________________________________
 html,
 body {
     /* structure */
-    height: 100%;               /* sticky footer hack */
+    height: 100%;                   /* sticky footer hack */
 }
 
 #content {
     /* structure */
-    min-height: 100%;           /* sticky footer hack */
-    margin-bottom: -15vmax;       /* sticky footer hack */
+    min-height: 100%;               /* sticky footer hack */
+    margin-bottom: -15vmin;         /* sticky footer hack */
+    /* border: 1px solid blue;   */
 }
 
 footer {
     /* structure */
-    height: 15vmax;               /* sticky footer hack */
+    height: 15vmax;                 /* sticky footer hack */
+    /* border: 1px solid red;   */
 }
 
 /*
@@ -134,13 +136,11 @@ p {
 header {
     /* structure */
     height: 8vmax;
-
-    border: 1px solid blue;
 }
 
 main {
     /* structure */
-    flex: 1;
+    /* flex: 1; */
 }
 
 header * {
