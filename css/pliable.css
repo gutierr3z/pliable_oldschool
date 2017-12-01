@@ -104,7 +104,6 @@ body {
     /* structure */
     min-height: 100%;               /* sticky footer hack */
     margin-bottom: -15vmin;         /* sticky footer hack */
-    /* border: 1px solid blue;   */
 }
 
 footer {
